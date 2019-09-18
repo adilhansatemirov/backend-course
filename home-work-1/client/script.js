@@ -72,11 +72,3 @@ new Vue({
     this.getUsers();
   }
 });
-
-// document.querySelector(".create-form").addEventListener("submit", event => {
-//   event.preventDefault();
-//   console.log("hey");
-//   axios.post("../api/create.php").then(response => {
-//     console.log(response.data);
-//   });
-// });
