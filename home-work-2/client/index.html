@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home work 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="forms">
+        <form class="form" @submit.prevent="login()">
+          <label class="form__label" for="email">Email</label
+          ><input
+            class="form__input"
+            type="email"
+            v-model="email"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label class="form__label" for="password">Password</label
+          ><input
+            class="form__input"
+            type="password"
+            v-model="password"
+            id="password"
+            name="password"
+            required
+          />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
