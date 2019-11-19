@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.form__input {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.form__button {
+  display: block;
+  width: 200px;
+}
+
+.congrats__text {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
